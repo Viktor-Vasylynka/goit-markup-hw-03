@@ -29,7 +29,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 .visually-hidden {
     clip: rect(1px 1px 1px 1px);
@@ -151,11 +151,10 @@ font-size: 16px;
 /* -----------HERO------------- */
 .hero {
     background-color: var(--vanyblue);
+    padding-bottom: 188px;
 }
 
 .hero-container {
-    padding: 188px 472px 292px 472px;
-
 }
 
 .hero-title {
@@ -165,9 +164,9 @@ font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    display: flex;
         width: 496px;
-        flex-direction: column;
+        padding-top: 188px;
+        margin: 0 auto;
         margin-bottom: 48px;
 }
 .hero-btn {
