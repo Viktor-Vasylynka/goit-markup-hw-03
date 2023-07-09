@@ -48,6 +48,7 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom:border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 
 .link {
@@ -362,11 +363,11 @@ margin-bottom: 120px;
 }
 
 .bro-btn-item {
-/* align-items: center;
+align-items: center;
 border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
-} */
 }
+
 
 .bro-btn-text {
     color: var(--iris-color);
