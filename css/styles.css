@@ -17,7 +17,7 @@ ul, ol {
     margin-bottom: 0;
     padding-left: 0;
 }
-.img {
+.image-style {
     display: block
 }
 
@@ -37,16 +37,17 @@ body {
     outline: 2px solid red;
 }
 .visually-hidden {
-    clip: rect(1px 1px 1px 1px);
-        /* IE6, IE7 */
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50%);
-        /* browsers in the future */
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
+    position: absolute;
         width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 /* -----------Header Page------------- */
@@ -124,6 +125,7 @@ font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--vanyblue);
+    padding: 24px 0;
     
 }
 
@@ -376,22 +378,16 @@ padding-top: 96px;
 
 .bro-btn-list {
     display: flex;
-    max-width: 556px;
-    gap: 24px;
-    /* width: calc((100% - 24 * 4) / 5); */
-    margin-bottom: 72px;
-    /* padding-top: 96px; */
     justify-content: center;
-    
+    gap: 24px;
+    margin-bottom: 72px;   
 }
 
 .bro-btn-item {
 align-items: center;
+padding: 12px 24px;
+border: var(--solid);
 border-radius: 4px;
-    /* border: 1px solid var(--cornflower, #E7E9FC); */
-    padding: 12px 24px;
-    border: var(--solid);
-
 }
 
 
@@ -420,7 +416,6 @@ border-radius: 4px;
     flex-wrap: wrap;
     gap: 48px 24px;
     margin-top: 72px;
-    /* margin-bottom: 120px; */
 }
 
 .bro-img-item {
@@ -440,8 +435,7 @@ border-radius: 4px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        /* margin-top: 32px;
-        padding: 0px 16px; */
+        padding: 0px 16px;
         margin-bottom: 8px
 }
 .bro-img-text {
