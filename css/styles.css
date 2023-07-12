@@ -250,13 +250,11 @@ font-size: 56px;
         text-transform: capitalize;
         text-align: center;
         color: var(--vanyblue);
-        margin-bottom: 72px;
 }
 
 .work-list {
 display: flex;
 gap: 24px;
-/* margin-bottom: 120px; */
 }
 
 .work-list-item {
