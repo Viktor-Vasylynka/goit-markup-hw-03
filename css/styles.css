@@ -108,7 +108,7 @@ display: flex;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        
+}
 
 .header-address-link:hover,
 .header-address-link:focus {
