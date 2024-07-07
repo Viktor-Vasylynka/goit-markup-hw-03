@@ -17,8 +17,7 @@ text-decoration: none;
 
 .container {
     width: 1158px;
-    padding: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;
     margin: 0 auto;
 }
 
@@ -54,7 +53,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: #404bbf;
+    border-bottom: 1px solid #e7e9f;
 }
 
 .header-container{
@@ -64,6 +63,7 @@ display: flex;
 
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -86,7 +86,9 @@ display: flex;
     gap: 40px;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-link {
     font-weight: 500;
@@ -109,9 +111,11 @@ display: flex;
 
 .header-address-list {
     display: flex;
+    gap: 40px;
 }
 
 .header-address-item {
+    padding: 24px 0;
 }
 
 .header-address-link {
@@ -162,6 +166,7 @@ display: flex;
         padding: 16px 32px;
         border-radius: 4px;
         border: none;
+        min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -234,8 +239,11 @@ display: flex;
     border-radius: 0 0 4px 4px;
 }
 
+.team-container {
+padding: 32px 0;
+}
+
 .team-image {
-    margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -245,7 +253,7 @@ display: flex;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-bottom: 8px;
+        margin-bottom: 8px
 }
 
 .team-text {
@@ -254,7 +262,6 @@ display: flex;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        padding-bottom: 32px;
 }
 /* -------------------------------------------------- */
 
@@ -285,6 +292,12 @@ gap: 48px 24px;
     width: calc((100% - 2 * 24px) / 3);
 }
 
+.portfolio-container {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
 .portfolio-image {
 
 }
@@ -295,9 +308,7 @@ gap: 48px 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 32px;
-        padding-left: 16px;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -305,8 +316,6 @@ gap: 48px 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-left: 16px;
-        padding-bottom: 32px;
 }
 
 /* -------------------------------------------------- */
@@ -328,6 +337,7 @@ gap: 48px 24px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
 }
 
 .footer-logo-accent {
@@ -340,5 +350,5 @@ gap: 48px 24px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-top: 16px;
+        margin-bottom: 16px;
 }
