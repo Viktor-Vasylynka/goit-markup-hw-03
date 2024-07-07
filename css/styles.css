@@ -53,12 +53,11 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9f;
 }
 
 .header-container{
 display: flex;
-
+border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -87,7 +86,7 @@ display: flex;
 }
 
 .header-menu-item {
-    padding: 24px 0;
+    
 }
 
 .header-menu-link {
@@ -96,6 +95,7 @@ display: flex;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -338,6 +338,8 @@ border-top: none;
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
+        max-width: 115px;
+        margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -350,5 +352,4 @@ border-top: none;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-bottom: 16px;
 }
